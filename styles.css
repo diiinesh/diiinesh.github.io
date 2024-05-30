@@ -1,37 +1,60 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #f4f4f4, #e2e2e2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     color: #333;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 50px 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
+    max-width: 600px;
+    width: 90%;
 }
 
 header h1 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.5em;
+    color: #0073b1;
 }
 
-header p {
+.subtitle {
     margin: 10px 0;
     font-size: 1.2em;
+    color: #555;
 }
 
-header a {
+.links a {
     color: #0073b1;
     text-decoration: none;
     margin: 0 10px;
+    transition: color 0.3s ease;
 }
 
-header a:hover {
+.links a:hover {
+    color: #005582;
     text-decoration: underline;
+}
+
+.bio {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #444;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.development-note {
+    font-size: 0.9em;
+    color: #999;
 }
